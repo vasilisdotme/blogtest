@@ -11,6 +11,8 @@ sections:
   label: Pages
   create: all
   match: "**/*"
+  templates:
+  - post
 - type: document
   path: content/_index.md
   label: Home
